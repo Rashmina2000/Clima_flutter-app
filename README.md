@@ -1,16 +1,56 @@
-# clima
+# Clima
+<img src="https://github.com/user-attachments/assets/a239a149-ea4e-4142-ae5b-7cf9e0f2a790" width="250">
+<img src="https://github.com/user-attachments/assets/98852c75-12e6-477f-923e-f33d1a3129c2" width="250"><br><br>
+<img src="" width="250"><br><br>
 
-A new Flutter project.
+Clima is a 
+<br><br>
+
+## Built With
+
+* ![Flutter](https://img.shields.io/badge/Flutter-02569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+* ![Dart](https://img.shields.io/badge/Dart-0175C2.svg?style=for-the-badge&logo=Dart&logoColor=white)
+<br><br>
 
 ## Getting Started
+### 💻 Requirements
 
-This project is a starting point for a Flutter application.
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter and Dart SDKs installed (ie. IntelliJ, Android Studio, VSCode etc)
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Rashmina2000/
+   ```
+2. Navigate into the directory:
+   ```sh
+   cd 
+   ```
+3. Get the dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+<br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contact
+
+Project Link: [https://github.com/Rashmina2000/](https://github.com/Rashmina2000/)
+<br><br>
+
+## Acknowledgments
+
+Made with 
+-  [geolocator 12.0.0](https://pub.dev/packages/geolocator)
+    -  Plugin which provides easy access to platform specific location services.
+
+-  [flutter_spinkit 5.2.1](https://pub.dev/packages/flutter_spinkit)
+    -  A collection of loading indicators animated with flutter.
+
+-  [http 1.2.2](https://pub.dev/packages/http)
+    -  A composable, Future-based library for making HTTP requests.
