@@ -1,9 +1,12 @@
 # Clima
 <img src="https://github.com/user-attachments/assets/a239a149-ea4e-4142-ae5b-7cf9e0f2a790" width="250">
 <img src="https://github.com/user-attachments/assets/98852c75-12e6-477f-923e-f33d1a3129c2" width="250"><br><br>
-<img src="" width="250"><br><br>
+<img src="https://github.com/user-attachments/assets/09611373-7cd0-4aef-9a1e-75bc09b9df87" width="250"><br><br>
 
-Clima is a 
+-   Clima is a Flutter mobile application that provides real-time weather data sourced from [OpenWeatherMap](https://openweathermap.org) using an [API service](https://openweathermap.org/api) provided by OpenWeatherMap.
+-   Clima tracks your location using your device's GPS location.
+-   You can also get weather data for any city you like.
+-   This app gives the temperature and little message tip according to the corresponding city's weather.
 <br><br>
 
 ## Built With
@@ -22,11 +25,11 @@ Clima is a
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Rashmina2000/
+   git clone https://github.com/Rashmina2000/Clima_flutter-app.git
    ```
 2. Navigate into the directory:
    ```sh
-   cd 
+   cd Clima_flutter-app
    ```
 3. Get the dependencies:
    ```sh
@@ -38,9 +41,23 @@ Clima is a
    ```
 <br>
 
+## Usage
+In order to get weather data from OpenWeatherMap, you need to have a API key provided by OpenWeatherMap.<br>
+Register to the [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) website and obtain a API key for make api requests. You'll get a API key similar to the one in below image. You can get this for free.
+
+![OpenWeatherMap](https://github.com/user-attachments/assets/c94a5062-deee-44de-9097-73043ed366d6)<br><br>
+
+Then copy that key to the `apiKey` constant in `weather.dart` file.
+
+![code](https://github.com/user-attachments/assets/110d0d45-aa45-482d-942d-735ad0ba51ed)<br>
+
+> 💡 Note that there are limitations in free API services. refer the documentation of OpenWeatherMap for more details.
+
+<br><br>
+
 ## Contact
 
-Project Link: [https://github.com/Rashmina2000/](https://github.com/Rashmina2000/)
+Project Link: [https://github.com/Rashmina2000/Clima_flutter-app.git](https://github.com/Rashmina2000/Clima_flutter-app.git)
 <br><br>
 
 ## Acknowledgments
@@ -54,3 +71,6 @@ Made with
 
 -  [http 1.2.2](https://pub.dev/packages/http)
     -  A composable, Future-based library for making HTTP requests.
+
+-   [https://openweathermap.org/api](https://openweathermap.org/api)
+      -   API service for real time weather data.  
