@@ -47,7 +47,7 @@ Register to the [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) 
 
 ![OpenWeatherMap](https://github.com/user-attachments/assets/c94a5062-deee-44de-9097-73043ed366d6)<br><br>
 
-Then copy that key to the `apiKey` constant in `weather.dart` file.
+Then copy that key to the `apiKey` constant in `lib/services/weather.dart` file.
 
 ![code](https://github.com/user-attachments/assets/110d0d45-aa45-482d-942d-735ad0ba51ed)<br>
 
